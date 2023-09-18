@@ -6,7 +6,7 @@
  * Return: exit
  */
 int main(void)
-{
+{ 
 	printf("Used up: exit\n");
 	exit(0);
 }
