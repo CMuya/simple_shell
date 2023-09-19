@@ -22,5 +22,5 @@ int main(void)
 
 	else
 	printf("Prior to fork l become two\n");
-	return 0;
+	return (0);
 }

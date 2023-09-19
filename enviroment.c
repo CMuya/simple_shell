@@ -1,18 +1,22 @@
 #include "shell.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - entry point
  * Return: current environment
  */
-extern char **env;
 int main(void)
 {
-	if
-	(int j = 0; env[j] != NULL; j++)
+       	if
+	(argc != 1 || strncmp(argv[0], "env") != 0)
 	{
-	printf(("%s\n" env[j]));
+	printf(stderr, "Used up: env\n");
+        exit(1);
 	}
 	else
+	{
+	char **enviro = string; *enviro != NULL; enviro++) {
+        printf("%s\n", *enviro);
+	}
 	return (0);
 }
